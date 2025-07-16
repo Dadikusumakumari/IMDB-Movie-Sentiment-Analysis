@@ -6,10 +6,14 @@ Source: https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movi
 Rows/Columns: ~50,000 records × 2 features  
 Contains data from IMDB, with features including movie reviews (text) and corresponding sentiment labels (positive or negative).
 
-# Tools & Technologies Used
+# Tools & Technologies 
 
 Python (Pandas, NumPy)
+
 Natural Language Processing: NLTK 
+
 Feature Extraction: TF-IDF
+
 Machine Learning: Scikit-learn (Logistic Regression, Linear SVC)
+
 Model Evaluation: Accuracy, Confusion Matrix, Classification Report
