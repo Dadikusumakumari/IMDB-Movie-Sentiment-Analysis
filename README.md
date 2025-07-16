@@ -56,8 +56,6 @@ Assessed model performance using:
 
 # Observations
 
-- TF-IDF effectively highlighted important words for classification.
-
 - LinearSVC slightly outperformed Logistic Regression with unigrams.
 
 - Accuracy remained high (~89–90%) across both models.
