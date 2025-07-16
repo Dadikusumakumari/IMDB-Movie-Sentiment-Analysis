@@ -3,7 +3,9 @@ Sentiment analysis of IMDB movie reviews using natural language processing (NLP)
 
 # Dataset
 Source: https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
+
 Rows/Columns: ~50,000 records × 2 features  
+
 Contains data from IMDB, with features including movie reviews (text) and corresponding sentiment labels (positive or negative).
 
 # Tools & Technologies 
@@ -42,7 +44,7 @@ Linear Support Vector Classifier (LinearSVC)
 
 Used an 80:20 train-test split for model evaluation.
 
-**Evaluation:**
+**Evaluation Metrics:**
 
 Assessed model performance using:
 
