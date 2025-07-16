@@ -44,7 +44,7 @@ Trained and compared two machine learning classification models:
 
 Used an 80:20 train-test split for model evaluation.
 
-**Evaluation Metrics:**
+# Evaluation Metrics:
 
 Assessed model performance using:
 
@@ -53,3 +53,11 @@ Assessed model performance using:
 - Confusion matrix
 
 - Classification report (Precision, Recall, F1 Score)
+
+# Observations
+
+- TF-IDF effectively highlighted important words for classification.
+
+- LinearSVC slightly outperformed Logistic Regression with unigrams.
+
+- Accuracy remained high (~89–90%) across both models.
