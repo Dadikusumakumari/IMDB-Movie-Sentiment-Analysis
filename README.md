@@ -8,12 +8,46 @@ Contains data from IMDB, with features including movie reviews (text) and corres
 
 # Tools & Technologies 
 
-Python (Pandas, NumPy)
+**Python** (Pandas, NumPy)
 
-Natural Language Processing: NLTK 
+**Natural Language Processing**: NLTK 
 
-Feature Extraction: TF-IDF
+**Feature Extraction**: TF-IDF
 
-Machine Learning: Scikit-learn (Logistic Regression, Linear SVC)
+**Machine Learning**: Scikit-learn (Logistic Regression, Linear SVC)
 
-Model Evaluation: Accuracy, Confusion Matrix, Classification Report
+**Model Evaluation**: Accuracy, Confusion Matrix, Classification Report
+
+# Model Development
+
+**Text Preprocessing:**
+
+Cleaned the raw movie reviews by removing punctuation, special characters, and converting all text to lowercase.
+
+Applied stemming and lemmatization to normalize words and reduce noise.
+
+Removed common stopwords to focus on meaningful terms.
+
+**Feature Extraction:**
+
+Transformed the processed text data into numerical format using TF-IDF vectorization, which helps assign importance to words based on their frequency and uniqueness across documents.
+
+**Model Building:**
+
+Trained and compared two machine learning classification models:
+
+Logistic Regression
+
+Linear Support Vector Classifier (LinearSVC)
+
+Used an 80:20 train-test split for model evaluation.
+
+**Evaluation:**
+
+Assessed model performance using:
+
+Accuracy score
+
+Confusion matrix
+
+Classification report (Precision, Recall, F1 Score)
